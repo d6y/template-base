@@ -1,6 +1,12 @@
-/* @override https://dallaway.telegr.am/css/demo.css */
+body {
+	font: medium Georgia, "Times New Roman", Times, serif;
+}
 
-/* @override https://dallaway.telegr.am/css/demo.css */
+p {
+	color: black;
+	font-size: medium;
+	line-height: 1.4;
+}
 
 html, body {
 	background-color: #eee;
