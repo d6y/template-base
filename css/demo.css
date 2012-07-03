@@ -1,9 +1,11 @@
+/* @override https://dallaway.telegr.am/css/demo.css */
+
 html, body {
 	background-color: #eee;
 }
 
 body {
-	padding-top: 8em; /* 40px to make the container go all the way to the bottom of the topbar */
+	padding-top: 1em; 
 }
 
 .container > footer p {
@@ -13,31 +15,31 @@ body {
 /* The white background content wrapper */
 .container > .content {
 	background-color: #fff;
-	padding: 20px;
-	margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+	padding-top: 20px;
 	
-	-webkit-border-radius: 0 0 6px 6px;
-	-moz-border-radius: 0 0 6px 6px;
-	border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 2px 2px 6px 6px;
+	-moz-border-radius:  2px 2px 6px 6px;
+	border-radius: 2px 2px 6px 6px;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
 	box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
-/* Page header tweaks */
-.page-header {
-	background-color: #f5f5f5;
-	padding: 20px 20px 10px;
-	margin: -20px -20px 20px;
+
+#site-title {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+
 }
 
-h1 {
+#site-title h1 {
 	margin: 0;
 	font-weight: normal;
-
 }
 
-h2 {
+#site-title h2 {
 	font-size: small;
 	font-style: italic;
 	font-weight: normal;
@@ -67,5 +69,10 @@ ul.posts h2 {
 
 
 .content {
-	width: 580px;
+	width: 620px;
+	padding-right: 20px;
+}
+
+code {
+  background-color: transparent;  
 }
