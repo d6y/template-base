@@ -64,9 +64,23 @@ ul.posts h2 {
 	padding-top: 0.5em
 }
 
-.date-bubble{display: block; width: 50px; height: 50px; background: url(http://posterous.com/themes/minimal/images/layout/bubble.png) no-repeat; position: absolute; right: -10px; top: -24px;}
+.date-bubble {
+	display: block; 
+	width: 50px; height: 50px; 
+	background: url(http://posterous.com/themes/minimal/images/layout/bubble.png) no-repeat; 
+	position: relative; 
+	right: -550px; top: 25px;
+}
 
-.date-bubble span{display: block; line-height: 14px; text-align: center; text-transform: uppercase; color: #fff; font-size: 10px; text-shadow: 0px 1px 0pt rgba(0, 0, 0, 0.30);}
+.date-bubble  {
+	display: block; 
+	line-height: 14px; 
+	text-align: center; 
+	text-transform: uppercase; 
+	color: #fff; 
+	font-size: 10px; 
+	text-shadow: 0px 1px 0pt rgba(0, 0, 0, 0.30);
+}
 
 .date-bubble span.month{padding-top: 12px;}
 
