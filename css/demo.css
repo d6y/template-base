@@ -1,5 +1,6 @@
 /* @override https://dallaway.telegr.am/css/demo.css */
 
+
 body {
 	font: medium Georgia, "Times New Roman", Times, serif;
 }
@@ -50,12 +51,12 @@ body {
 	margin-bottom: 0.1em;
 }
 
-#sidebar ul,ul {
+#sidebar ul, ul {
 	list-style: square;
 	margin: 0 0 18px 25px;
 }
 
-#sidebar li, li {
+#sidebar li, .content > li {
 	margin-left: 1em;
 	font-size: small;
 	color: black;
@@ -174,8 +175,8 @@ ul.posts h2, h2.post {
 	-webkit-border-radius: 2px 2px 0px 0px;
 	-moz-border-radius:  2px 2px 0px 0px;
 	border-radius: 2px 2px 0px 0px;
-	
 }
+
 
 .date-bubble span {
 	display: block; 
