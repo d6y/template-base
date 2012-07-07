@@ -55,7 +55,7 @@ body {
 	margin: 0 0 18px 25px;
 }
 
-#sidebar li {
+#sidebar li, .archive li {
 	margin-left: 1em;
 	font-size: small;
 	color: black;
@@ -128,7 +128,9 @@ ul.posts, div.post  {
 	color: black;
 }
 
-#site-title h1, .content h1 {
+
+
+#site-title h1 {
 	margin: 0;
 	font-weight: normal;
 }
@@ -161,6 +163,18 @@ ul.posts h2, h2.post {
 	font-weight: lighter;
 	margin-bottom: 0.5em;
 	padding-top: 0.5em
+}
+
+.content h1 {
+	margin: 0 0 18px 25px;
+	font-weight: normal;
+	border-top: 3pt solid #0099cc;
+	font-size: xx-large;
+	line-height: 1.2;
+	font-weight: lighter;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em
+
 }
 
 .date-bubble {
