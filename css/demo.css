@@ -1,7 +1,5 @@
 /* @override https://dallaway.telegr.am/css/demo.css */
 
-/* @override https://dallaway.telegr.am/css/demo.css */
-
 body {
 	font: medium Georgia, "Times New Roman", Times, serif;
 }
@@ -130,7 +128,7 @@ ul.posts, div.post  {
 	color: black;
 }
 
-#site-title h1 {
+#site-title h1, .content h1 {
 	margin: 0;
 	font-weight: normal;
 }
@@ -187,11 +185,15 @@ ul.posts h2, h2.post {
 	text-shadow: 0px 1px 0pt rgba(0, 0, 0, 0.30);
 }
 
-
+.older {
+	margin-left: 1em;
+	font-size: large;
+}
 
 .content {
 	width: 620px;
 	padding-right: 20px;
+	padding-bottom: 1em;
 }
 
 code {
