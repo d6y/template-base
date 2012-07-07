@@ -52,6 +52,7 @@ body {
 
 #sidebar ul {
 	list-style: square;
+	margin: 0 0 18px 25px;
 }
 
 #sidebar li {
@@ -104,6 +105,11 @@ body {
 }
 
 
+.content div {
+	margin: 0 0 18px 25px;
+	
+}
+
 #site-title {
   width: 940px;
   margin-left: auto;
@@ -133,15 +139,18 @@ a {
 }
 
 a:visited {
-	color:  #006485;
+	color:  #00c485;
 }
 
 a:hover {
 	color:  #ff8300;
 }
 
+ul, ol {
+  margin: 0 0 0 0;
+}
 
-ul.posts h2 {
+ul.posts h2, h2.post {
 	border-top: 3pt solid #0099cc;
 	font-size: xx-large;
 	line-height: 1.2;
