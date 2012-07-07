@@ -1,7 +1,5 @@
 /* @override https://dallaway.telegr.am/css/demo.css */
 
-/* @override https://dallaway.telegr.am/css/demo.css */
-
 body {
 	font: medium Georgia, "Times New Roman", Times, serif;
 }
@@ -52,16 +50,22 @@ body {
 	margin-bottom: 0.1em;
 }
 
-#sidebar ul {
+#sidebar ul,ul {
 	list-style: square;
 	margin: 0 0 18px 25px;
 }
 
-#sidebar li {
+#sidebar li, li {
 	margin-left: 1em;
 	font-size: small;
+	color: black;
 }
 
+li {
+	font-size: medium;
+	margin-bottom: 0.5em;
+	line-height: 1.4;
+}
 
 .me {
 	padding-top: 1em;
@@ -112,7 +116,6 @@ ul.posts, div.post  {
 }
 
 
-
 #site-title {
   width: 940px;
   margin-left: auto;
@@ -142,7 +145,7 @@ a {
 }
 
 a:visited {
-	color: #0099cc;
+	color:  #006485;
 }
 
 a:hover {
