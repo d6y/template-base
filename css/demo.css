@@ -1,5 +1,7 @@
 /* @override https://dallaway.telegr.am/css/demo.css */
 
+/* @override https://dallaway.telegr.am/css/demo.css */
+
 body {
 	font: medium Georgia, "Times New Roman", Times, serif;
 }
@@ -105,10 +107,11 @@ body {
 }
 
 
-.content div {
+ul.posts, div.post  {
 	margin: 0 0 18px 25px;
-	
 }
+
+
 
 #site-title {
   width: 940px;
