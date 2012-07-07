@@ -1,5 +1,6 @@
 /* @override https://dallaway.telegr.am/css/demo.css */
 
+/* @override https://dallaway.telegr.am/css/demo.css */
 
 body {
 	font: medium Georgia, "Times New Roman", Times, serif;
@@ -56,7 +57,7 @@ body {
 	margin: 0 0 18px 25px;
 }
 
-#sidebar li, .content > li {
+#sidebar li {
 	margin-left: 1em;
 	font-size: small;
 	color: black;
@@ -66,6 +67,7 @@ li {
 	font-size: medium;
 	margin-bottom: 0.5em;
 	line-height: 1.4;
+	color: black;
 }
 
 .me {
@@ -153,9 +155,6 @@ a:hover {
 	color:  #ff8300;
 }
 
-ul, ol {
-  margin: 0 0 0 0;
-}
 
 ul.posts h2, h2.post {
 	border-top: 3pt solid #0099cc;
